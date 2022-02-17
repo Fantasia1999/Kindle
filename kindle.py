@@ -123,10 +123,11 @@ def render_clippings(file_name):
     all_books.sort(key=lambda x: x["nums"], reverse=True)
     try:
         json_str = json.dumps(all_books, indent=2, ensure_ascii=False)
-        with open("clippings.json", "w") as f:
+        with open("clippings.json", "w", encoding="UTF-8") as f:
             f.write(json_str)
         return 1
-    except:
+    except Exception as e:
+        print(e)
         return 0
 
 
