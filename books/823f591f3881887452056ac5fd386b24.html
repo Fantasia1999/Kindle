@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title> Kindle 读书笔记 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div class="container">
+		<header class="header col-md-12">
+			<div class="page-header">
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Effective C++：改善程序与设计的55个具体做法 [Scott Meyers]</small> <span class="badge"></span></h1>
+			</div>
+		</header>
+
+        <div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked go-back">
+				<li role="presentation" class="active text-center">
+					<a href="../index.html" style="border-radius: 50%;"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></a>
+				</li>
+			</ul>
+		</div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>在头文件中定义一个 constant char*-based string（基于 char* 的字符串常量）时，你必须写两次 const： const char * const authorName = "Scott Meyers";
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #188-189的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2021年2月20日星期六 下午1:18:13</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>，一个可接受的替代方案被亲切地（并非轻蔑地）昵称为 "the enum hack"。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #226-226的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2021年2月20日星期六 下午1:37:00</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>，一个可接受的替代方案被亲切地（并非轻蔑地）昵称为 "the enum hack"。这项技术获得以下事实的支持：一个 enumerated type（枚举类型）的值可以用在一个需要 ints 的地方。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #226-227的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2021年2月20日星期六 下午1:37:11</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>如果 const 出现在星号左边，则指针 pointed to（指向）的内容为 constant（常量）；如果 const 出现在星号右边，则 pointer itself（指针自身）为 constant（常量）；如果 const 出现在星号两边，则两者都为 constant（常量）。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #284-286的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2021年2月28日星期日 下午11:55:18</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>有时，即使是 built-in types（内建类型），initialization list（初始化列表）也必须使用。比如，const 或 references（引用）data members（数据成员）是必须 be initialized（被初始化）的，它们不能 be assigned（被赋值）（参见 Item 5）。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #569-571的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年1月10日星期一 下午8:19:30</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>C++ 并非变幻莫测的方面是一个 object（对象）的数据被初始化的顺序。这个顺序总是相同的：base classes（基类）在 derived classes（派生类）之前被初始化（参见 Item 12），在一个 class（类）内部，data members（数据成员）按照它们被声明的顺序被初始化。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #581-584的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年1月10日星期一 下午9:42:41</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
